@@ -1,3 +1,176 @@
-/* body {
+  /*---------------------------------*/
+ /* FONDO BODY */
+/*---------------------------------*/
+
+
+body {
     background-image: url("../img/fondo.png");
 } 
+
+
+ /*---------------------------------*/
+ /* HEADER Y MENU DE NAVEGACIÓN */
+/*---------------------------------*/
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 1.5rem
+}
+
+nav ul {
+	margin: 0;
+	padding: 1rem;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;	
+}
+nav a {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:link {
+	background-color: #999;
+	color: #000;
+}
+nav a:visited {
+	background-color: #999;
+	color: #000;
+}
+nav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+nav a:active {
+	background-color: rgb(94, 36, 36);
+	color: #FFF;
+}
+
+
+
+ /*---------------------------------*/
+        /* CONTENIDO MAIN */
+ /*---------------------------------*/
+main {
+    width: 70rem;
+    margin: 2rem auto;
+    background-color: black;
+}
+
+section {
+    background-color: black;
+}
+
+/* BLOCKQUOTE */
+blockquote {
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    text-align: center;
+    font-style: italic;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* TITULOS */
+
+
+h1 {
+    font-family: "Arvo", serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+
+
+
+h2 {
+    font-family: "Arvo", serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Arvo", serif;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    
+}
+
+/* TEXTO */
+p {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+
+}
+
+
+
+/* LISTAS */
+ul {
+    text-align: center;
+    color: white;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* IMG */
+    img {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+} 
+
+/* VIDEO */
+iframe {
+    width: 100%;
+    height: 35rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+ /*---------------------------------*/
+        /* FOOOTER */
+ /*---------------------------------*/
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+address {
+    color: white;
+    
+}
+
+footer a {
+    color: #9f7aea;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
